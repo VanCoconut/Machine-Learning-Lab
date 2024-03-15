@@ -29,7 +29,7 @@ for player in players:
         countries[player.country] = player.scores
     else:
         countries[player.country] += player.scores
-print(countries)
+# print(countries)
 top3_rank = list(())
 for i in range(3):
     top_score = max(players, key=lambda x: x.scores)
@@ -42,6 +42,5 @@ for i in range(3):
     print(str(i + 1) + ":", end=" ")
     print(top3_rank[i].to_string_top3())
 
-top_country = max(countries,key=countries.get)
-print("\nBestCountry:\n"+top_country+" - Total score: "+countries[top_country].__str__())
-
+top_country = max(countries, key=countries.get)
+print("\nBestCountry:\n" + top_country + " - Total score: " + countries[top_country].__str__())
