@@ -1,2 +1,2 @@
 # Machine-Learning-Lab
-Exercises made during the Machine Learing coruse held at Polito
+Exercises made during the Machine Learing course held at Polito
