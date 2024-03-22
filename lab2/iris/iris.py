@@ -20,6 +20,7 @@ def load(name):
 
 
 [a, b] = load("iris.csv")
+print(a)
 
 #compute the mean and center the data
 mu = a.mean(1).reshape(a.shape[0], 1)
